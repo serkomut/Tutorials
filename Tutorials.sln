@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{ADBEBD2E-1A08-4E0C-99CD-4686398CF89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorials.Builder", "src\Tutorials.Builder\Tutorials.Builder.csproj", "{1027FC10-8F70-4B6F-A884-0224C9BF54E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1027FC10-8F70-4B6F-A884-0224C9BF54E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1027FC10-8F70-4B6F-A884-0224C9BF54E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1027FC10-8F70-4B6F-A884-0224C9BF54E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1027FC10-8F70-4B6F-A884-0224C9BF54E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1027FC10-8F70-4B6F-A884-0224C9BF54E8} = {ADBEBD2E-1A08-4E0C-99CD-4686398CF89F}
+	EndGlobalSection
+EndGlobal
