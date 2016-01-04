@@ -4,7 +4,6 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var database = require('./config/database');
 var bodyParser = require('body-parser');
-var methodOverride = require('method-override');
 
 mongoose.connect(database.url);
 
