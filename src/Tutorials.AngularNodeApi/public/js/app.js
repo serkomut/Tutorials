@@ -1,11 +1,12 @@
 angular.module('codingApp', [])
 .controller('mainController', function($scope){
-	$scope.title = 'OTI Coding Activity';
+	$scope.title = 'Coding Activity';
 	$scope.cities = [];
 	$scope.city = '';
 
 	$scope.addCity = function(){
-		$scope.cities.push($scope.city);
+	    $scope.cities.push($scope.city);
+	    $scope.city = '';
 	};
 
 	$scope.removeCity = function(index){
